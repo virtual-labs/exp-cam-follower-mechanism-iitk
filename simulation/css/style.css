@@ -1,0 +1,54 @@
+
+#main-wrapper{
+    //alignment-adjust: central;
+    border-radius: 5px;    
+    background-color: lightcyan;
+    width: 670px;
+    height: 420px;
+    padding: 5px;
+    border: 2px solid navy;
+    margin: 10px;
+
+}
+#canvas3d-wrapper{
+    float: left;
+    width: 500px;
+}
+#canvas3d-title, #controller-title, #graph-title{
+    height: 25px;
+    color: #638EA8;
+    background-color: lightblue;    
+    border-top: 1px #85A8C2 solid;
+    border-right: 1px #85A8C2 solid;
+    border-bottom: 1px #85A8C2 solid;
+    border-left: 1px #85A8C2 solid;    
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+#canvas3d-view{
+    color: #638EA8;
+    height: 380px;   
+
+
+}
+#controller-graph-wrapper{
+    padding-left: 405px;
+}
+#controller-wrapper{}
+#graph-wrapper{}
+#controller-view{
+    height: 600px;
+    
+
+}
+#graph-view{
+    height: 200px;
+
+}
+#lab-footer{
+    align-content: center;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25%;
+}
