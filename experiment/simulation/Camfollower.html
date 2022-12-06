@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.2.0/math.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.1.4/math.min.js"></script>
+        <script src="./js/tmat.js" type="text/javascript"></script>
+
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <!-- Google Analytics Script -->
+        <script src="../js/google-analytics.js" type="text/javascript"></script>
+        <script src="../js/threejs/three.min.js"></script>
+        <script type="text/javascript" src="../js/threejs/three.min.js"></script>
+        <script type="text/javascript" src="../js/threejs/TrackballControls.js"></script>
+        <script type="text/javascript" src="../js/threejs/Detector.js"></script>
+        <script type="text/javascript" src="../js/threejs/stats.min.js"></script>         <!--<script src="http://threejs.org/examples/js/loaders/STLLoader.js"></script>-->
+        <script type="text/javascript" src="./js/STLLoader.js"></script>
+        <script type="text/javascript" src="./js/canvas2D.js"></script>
+        <script type="text/javascript" src="./js/axis.js"></script>
+        <script type="text/javascript" src="./js/scene2.js"></script>
+        <script type="text/javascript" src="./js/controller.js"></script>
+    </head>
+    <body>
+        <img src="../images/logo.jpg" alt="VLabs Logo">
+        <div id="wrapperfull" align="center" style="background: graytext; border: 2px"  >
+            <div id="main-wrapper" style="float: left">
+                <div id="canvas3d-wrapper">
+                    <div id="canvas3d-title">Simulator</div>            
+                    <div id="canvas3d-view"></div>           
+                </div>
+                <div id="controller-graph-wrapper">
+                    <div id="controller-wrapper">
+                        <div id="controller-title">Controller</div>
+                        <div id="controller-view">
+                            <label style="color: blue" >Joint 1</label><br>
+                            <input id="slider1" type="range" min="0" max="360" step="1" value="0" oninput="sliderChange()">
+                            <input id="rangeValue1"  type="text" size="2" value="0"><br>
+                          
+
+                        </div>  
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!--<div id="startButtonId">Start</div>
+        <div id="resetButtonId">Reset</div>-->
+        <footer class="default" id="lab-footer" >
+            <!-- Put the content here-->
+            <div style="align-content: center;">
+                Copyright &copy; 2011 Indian Institute of Technology Kharagpur,<a href="../license/index.html" target="_blank" style="margin:auto"> Licensing Terms </a>
+            </div>
+        </footer>
+    </body>
+</html>
